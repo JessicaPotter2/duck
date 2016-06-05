@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册界面</title>
+<link rel="stylesheet" href="css/reg.css" type="text/css" />
+</head>
+<body>
+<script type="text/javascript" src="js/ajax.js"></script>
+<center><h1>欢迎您注册成为imall商城会员</h1></center>
+<center><h2>imall商城，方便你我</h2></center>
+<form method="post" action="RegServlet" class="form">
+		<p>
+			<label for="loginName">用户名:</label>
+			<input type="text" name="loginName" id="loginName" onblur="test();"/>
+			<div id="myDiv" name="myDiv"></div>
+		</p>
+		<p>
+			<label for="loginPass">密&emsp;码:</label>
+			<input type="password" name="loginPass" id="loginPass" />
+		</p>
+		<p>
+			<label for="mail">邮&emsp;箱:</label>
+			<input type="text" name="mail" id="mail" />
+		</p>
+		<p>
+			<input type="submit" value="注册" onclick="test();"/>
+			<input type="reset" value="重置"/>
+		</p>
+		<td class="td"><a href="index.jsp">返回首页</a></td>
+	</form>
+</body>
+</html>

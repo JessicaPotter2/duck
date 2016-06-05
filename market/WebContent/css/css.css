@@ -1,0 +1,29 @@
+BODY{
+FONT-SIZE: 12px;
+COLOR: #black;
+FONT-FAMILY:  宋体;
+background-color: #FFFFFF; 
+		scrollbar-3dlight-color:#black;
+	        scrollbar-arrow-color:ffffff;
+	        scrollbar-base-color:DBC2B0;
+	        scrollbar-darkshadow-color:FFFFFF;
+	        scrollbar-face-color:DBC2B0;
+	        scrollbar-highlight-color:FFFFFF;
+	        scrollbar-shadow-color:#black
+}
+	
+	a:visited {  color: ##black; text-decoration: none }
+	a:hover {  color: #FF0000; text-decoration: none }
+	a:active {  color: #FF0000; text-decoration: none }
+	a:link { color: ##black; text-decoration: none }
+	td {  font-size: 9pt; color: ##black}
+.shang {
+	background-image: url(img/imgs/shang.jpg);
+	background-repeat: repeat-x;
+}
+
+	
+.shang1 {
+	background-image: url(img/imgs/shang1.jpg);
+	background-repeat: repeat-x;
+}
